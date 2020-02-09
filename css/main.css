@@ -241,3 +241,29 @@ sup {
   border-spacing: 0;
   border-collapse: separate;
 }
+
+.trawmay table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: separate;
+}
+
+.tramway td {
+  padding: 3px 5px 3px 5px;
+}
+
+.tramway .line {
+  padding: 0px 2px 0px 2px;
+  border-radius: 30%;
+  border: white 1px solid;
+}
+
+.tramway .blick {
+  animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

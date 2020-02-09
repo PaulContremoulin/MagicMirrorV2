@@ -452,14 +452,14 @@ var CalendarFetcher = function(url, reloadInterval, excludedEvents, maximumEntri
 		eventsReceivedCallback = callback;
 	};
 
-	/* onError(callback)
-	 * Sets the on error callback
-	 *
-	 * argument callback function - The on error callback.
-	 */
-	this.onError = function(callback) {
-		fetchFailedCallback = callback;
-	};
+    /* onError(callback)
+     * Sets the on error callback
+     *
+     * argument callback function - The on error callback.
+     */
+    this.onError = function (callback) {
+        fetchFailedCallback = callback;
+    };
 
 	/* url()
 	 * Returns the url of this fetcher.

@@ -34,8 +34,9 @@ module.exports = function(grunt) {
 					"modules/default/calendar/calendar.css",
 					"modules/default/clock/clock_styles.css",
 					"modules/default/currentweather/currentweather.css",
-					"modules/default/weatherforcast/weatherforcast.css"
-				]
+					"modules/default/weatherforcast/weatherforcast.css",
+                    "modules/default/tramway/tramway.css",
+                ]
 			}
 		},
 		jsonlint: {

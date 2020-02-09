@@ -8,17 +8,20 @@
 // Modules listed below can be loaded without the 'default/' prefix. Omitting the default folder name.
 
 var defaultModules = [
-	"alert",
-	"calendar",
-	"clock",
-	"compliments",
-	"currentweather",
-	"helloworld",
-	"newsfeed",
-	"weatherforecast",
-	"updatenotification",
-	"weather"
+    "alert",
+    "calendar",
+    "clock",
+    "compliments",
+    "currentweather",
+    "helloworld",
+    "newsfeed",
+    "weatherforecast",
+    "updatenotification",
+    "weather",
+    "tramway"
 ];
 
 /*************** DO NOT EDIT THE LINE BELOW ***************/
-if (typeof module !== "undefined") {module.exports = defaultModules;}
+if (typeof module !== "undefined") {
+    module.exports = defaultModules;
+}
