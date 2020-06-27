@@ -88,6 +88,18 @@ var config = {
 				broadcastNewsUpdates: true
 			}
 		},
+		{
+            module: "tramway",
+            position: "top_right",
+            config: {
+                stations: [
+                    {
+                        station: "RIVES DU LEZ",
+                        lines: ["1", "4"]
+                    },
+                ]
+            }
+        },
 	]
 
 };
